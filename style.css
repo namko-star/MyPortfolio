@@ -1,0 +1,66 @@
+h1 {
+    border: solid;
+    padding-left: 20px;
+    color: navy;
+}
+
+/** {
+    border: solid;
+}*/
+
+.Header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu {
+    border: solid;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Item {
+    position: relative;
+}
+
+.Item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Item:hover p {
+    opacity: 0.5;
+}
+
+.Menu a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #0000ff;
+}
